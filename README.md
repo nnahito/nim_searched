@@ -7,7 +7,7 @@ It implements the Dijkstra and Bellmanford methods.
 ### install
 
 ```
-nimble install nim-searches
+nimble install nimsearches
 ```
 
 ### Bellman–Ford algorithm
