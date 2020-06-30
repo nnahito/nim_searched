@@ -13,7 +13,7 @@ nimble install nimsearches
 ### Bellman–Ford algorithm
 
 ```
-import nim-searches
+import nimsearches
 
 const bellmanTestData = [
     @[0.0, 1.0, 4.0], @[0.0, 2.0, 3.0], @[1.0, 2.0, 1.0], @[1.0, 3.0, 1.0],
@@ -29,7 +29,7 @@ assert bellmanResult == @[0.0, 4.0, 3.0, 5.0, 6.0, 5.0, 8.0]
 ### Dijkstra's algorithm
 
 ```
-import nim-searches
+import nimsearches
 
 const dijkstraTestData = @[
     @[@[1.0, 4.0], @[2.0, 3.0]],
